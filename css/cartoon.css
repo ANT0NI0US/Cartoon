@@ -129,7 +129,7 @@ ul {
 
 /* start dots compoenet */
 .dots {
-  background-image: url(../imgs/plans/dots.png);
+  background-image: url("https://i.ibb.co/1QLWksF/dots.webp");
   background-size: cover;
   position: absolute;
   width: 200px;
@@ -1978,7 +1978,7 @@ ul {
 .stats {
   padding-top: var(--padding-section);
   padding-bottom: var(--padding-section);
-  background-image: url(../imgs/stats/stats.jpg);
+  background-image: url("https://i.ibb.co/Bn22xmb/stats.webp");
   background-size: cover;
   position: relative;
 }
@@ -2076,7 +2076,7 @@ ul {
 
 .discount .dis {
   flex-basis: 50%;
-  background-image: url(../imgs/discount/discount-background1.jpg);
+  background-image: url("https://i.ibb.co/ZKV3hR8/discount-background1.webp");
   background-size: cover;
   position: relative;
   z-index: -3;
@@ -2165,13 +2165,13 @@ ul {
 
 @keyframes change-background {
   0% {
-    background-image: url(../imgs/discount/discount-background1.jpg);
+    background-image: url("https://i.ibb.co/ZKV3hR8/discount-background1.webp");
   }
   50% {
-    background-image: url(../imgs/discount/discount-background2.jpg);
+    background-image: url("https://i.ibb.co/zbzbmzp/discount-background2.webp");
   }
   100% {
-    background-image: url(../imgs/discount/discount-background3.jpg);
+    background-image: url("https://i.ibb.co/PQ9WQMS/discount-background3.webp");
   }
 }
 /* end styling discount */
@@ -2230,6 +2230,10 @@ footer .container .details .start .body ul li a i {
   font-size: 20px;
   padding: 10px;
   color: var(--second-color);
+}
+
+footer .container .details .start .body ul li:hover a i {
+  color: white;
 }
 
 footer .container .details .start .body ul li:hover:first-of-type {
